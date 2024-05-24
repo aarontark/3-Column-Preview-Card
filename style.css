@@ -6,12 +6,21 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: lexenDeca;
+    src: url('./fonts/LexendDeca-Regular.ttf');
+}
+
+@font-face {
+    font-family: bigShoulders;
+    src: url('./fonts/BigShouldersDisplay-Bold.ttf');
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
 }
 
 .attribution {
