@@ -5,3 +5,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+}
