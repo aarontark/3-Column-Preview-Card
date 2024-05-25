@@ -104,3 +104,27 @@ body {
     position: absolute;
     bottom: 0;
 }
+
+@media all and (min-width: 428px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .preview-card {
+        display: flex;
+        margin: 0;
+        width: 60%;
+    }
+
+    .vehicle-section {
+        gap: 1.5rem;
+    }
+
+    .paragraph-container {
+        gap: 6rem;
+    }
+}
