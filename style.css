@@ -88,6 +88,7 @@ body {
     font-size: .95rem;
     font-family: lexenDeca;
     cursor: pointer;
+    transition: .1s;
 }
 
 .button:hover {
