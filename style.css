@@ -28,7 +28,43 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    font-family: lexenDeca;
+    color: white;
+}
+
+.preview-card {
+    margin: 5.5rem 0;
+    width: 87.5%;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.vehicle-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem;
+}
+
+.sedans {
+    background: var(--bright-orange)
+}
+
+.suvs {
+    background: var(--dark-cyan);
+}
+
+.luxury {
+    background: var(--very-dark-cyan);
+}
+
+.title {
+    font-family: bigShoulders;
+    font-size: 2rem;
+}
+
+.icon {
+    width: 4rem;
 }
 
 .attribution {
