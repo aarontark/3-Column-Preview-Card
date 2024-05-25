@@ -128,4 +128,8 @@ body {
     .paragraph-container {
         gap: 6rem;
     }
+
+    .paragraph {
+        line-height: 1.75rem;
+    }
 }
